@@ -1,0 +1,25 @@
+{
+    "name": "patrickocheja.com",
+    "short_name": "patrickocheja.com",
+    "icons": [{
+            "src": "assets/icons/android-icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image\/png"
+        },
+        {
+            "src": "assets/icons/android-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image\/png"
+        },
+        {
+            "src": "assets/icons/android-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image\/png"
+        }
+    ],
+    "theme_color": "#66B348",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "./?utm_source=web_app_manifest"
+}

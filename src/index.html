@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Patrick Ocheja</title>
+    <base href="/">
+
+    <meta name="description" content="Hello, I am Patrick!" />
+
+    <meta property="og:title" content="Patrick Ocheja" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://patrickocheja.com/" />
+    <meta property="og:image" content="assets/images/me.png" />
+    <meta property="og:description" content="Hello, I am Patrick!" />
+    <meta property="og:site_name" content="patrickocheja" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#66B348">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--mobile apps-->
+	<!--Custom Theme files-->
+	<link href="assets/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="assets/css/swipebox.css">
+	<!--//Custom Theme files-->
+    <!--js-->
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+	<!--web-fonts-->
+	<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet'
+	 type='text/css'>
+	<!--//web-fonts-->
+	<!--start-smooth-scrolling-->
+	<script type="text/javascript" src="assets/js/move-top.js"></script>
+	<script type="text/javascript" src="assets/js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!--//end-smooth-scrolling-->
+</head>
+
+<body>
+    <app-root></app-root>
+
+    <div class="app-loader" id="content">
+        <!--img class="logo" src="assets/images/logo.svg" alt="Logo"-->
+
+        <noscript>
+          <h4 style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica;">
+            Sorry, JavaScript needs to be enabled in order to run this application.
+          </h4>
+        </noscript>
+    </div>
+
+<!--ResponsiveTabs-->
+			<script src="assets/js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="assets/js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript">
+				jQuery(function ($) {
+					$(".swipebox").swipebox();
+				});
+			</script>
+			<!-- //swipe box js -->
+<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+				$(document).ready(function () {
+
+					var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear'
+					};
+
+					$().UItoTop({ easingType: 'easeOutQuart' });
+
+				});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
